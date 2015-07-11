@@ -29,32 +29,81 @@
 		
 	<div id="page-content">
         
-        <img id="logo" src="img/curve-logo-future.png">
+        
 
-        <div id="static-slide">
-        	<div class="slidetext">
-        		This is not a
-        	</div>
-        </div>
+        <!-- <div id="slides"> -->
+            <!-- Statics -->
+            <img id="logo" src="img/curve-logo-future.png">
 
-        <div id="slides">
-      		
-        	<div id="slide-1" class="slide" 
-        		   data-90p="opacity: 1;" data-100p="opacity: 0;">
-        		<img src="img/iphone.png" class="slide-image">
-        	</div>
+            <div id="slide-1" class="slide flex">
+                <div class="slide-image-ct flex center">
+                    <img src="img/iphone.png"
+                         data-90p="opacity: 1;" data-100p="opacity: 0;"
+                         data-anchor-target="#location-helper">
+                </div>
+                <div class="slide-text-ct flex vertical-center">
+                    This is not a
+                    <span data-90p="opacity: 1;" data-100p="opacity: 0;"
+                          data-anchor-target="#location-helper">
+                        &nbsp;phone
+                    </span>
+                </div>
+            </div>
 
-        	<div id="slide-2" class="slide" 
-        			 data-90p="opacity: 0;" data-100p="opacity: 1;"
-        			 data-190p="opacity: 1;" data-200p="opacity: 0;">
-        		<img src="img/carriage.png" class="slide-image">
-        	</div>
+            <div id="slide-2" class="slide flex">
+                <div class="slide-image-ct flex center">
+                    <img src="img/carriage.png"
+                         data-90p="opacity: 0;" data-100p="opacity: 1;"
+                         data-190p="opacity: 1;" data-200p="opacity: 0;"
+                         data-anchor-target="#location-helper">
+                </div>
+                <div class="slide-text-ct flex vertical-center">
+                    This is not a
+                    <span data-90p="opacity: 0;" data-100p="opacity: 1;"
+                          data-190p="opacity: 1;" data-200p="opacity: 0;"
+                          data-anchor-target="#location-helper">
+                        &nbsp;carriage
+                    </span>
+                </div>
+            </div>
 
-        	<div id="slide-3" class="slide"
-        			 data-190p="opacity: 0;" data-200p="opacity: 1;">
-        		<img src="img/card.png" class="slide-image">
-        	</div>
+            <div id="slide-3" class="slide flex">
+                <div class="slide-image-ct flex center">
+                    <img src="img/card.png"
+                         data-190p="opacity: 0;" data-200p="opacity: 1;"
+                         data-anchor-target="#location-helper">
+                </div>
+                <div class="slide-text-ct flex vertical-center">
+                    This is not a
+                    <span data-190p="opacity: 0;" data-200p="opacity: 1;"
+                          data-anchor-target="#location-helper">
+                        &nbsp;card
+                    </span>
+                </div>
+            </div>
 
+
+
+        	<!-- <div class="static-text">This is not a</div> -->
+
+            <!-- <img src="img/iphone.png" class="slide-image"
+                 data-90p="opacity: 1;" data-100p="opacity: 0;"
+                 data-anchor-target="#helper">
+
+            <img src="img/carriage.png" class="slide-image"
+                 data-90p="opacity: 0;" data-100p="opacity: 1;"
+                 data-190p="opacity: 1;" data-200p="opacity: 0;"
+                 data-anchor-target="#helper">
+
+            <img src="img/card.png" class="slide-image"
+                 data-190p="opacity: 0;" data-200p="opacity: 1;"
+                 data-anchor-target="#helper"> -->
+        <!-- </div> -->
+
+        <div id="location-helper">
+            <div class="marker red"></div>
+            <div class="marker green"></div>
+            <div class="marker blue"></div>
         </div>
 
 	</div>
