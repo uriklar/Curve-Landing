@@ -47,14 +47,6 @@ Enjoy responsibly!
   height: 100%;
 }
 
-/*#slides .static-text {
-  position: fixed;
-  left: 59%;
-  top: 40%;
-  color: #fff;
-  font-size: 3em;
-}*/
-
 
 .slide-image-ct {
   width: 55%;
@@ -70,24 +62,28 @@ Enjoy responsibly!
     position:absolute;
     left:0;
     top: 0;
-    height:300%;
-    width: 20px;
+    height:400%;
+    width: 0;
 }
 
 .marker {
-    height: 33.3333%;
+    height: 25%;
     width: 100%;
 }
-.red {
-    background-color: red;
-}
-.green {
-    background-color: green;
-}
-.blue {
-    background-color: blue;
+
+#after-slides {
+  position: absolute;
+  margin-top: 260%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
 }
 
+#after-slides h1 {
+  font-size: 3.5em;
+  color: #fff;
+}
 
 /* ==========================================================================
    Helper classes
