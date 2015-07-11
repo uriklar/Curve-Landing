@@ -14,6 +14,21 @@ Enjoy responsibly!
 */
 
 /* ==========================================================================
+   Fonts
+   ========================================================================== */
+
+
+@font-face {
+  font-family: 'MyriadPro-LightSemiCn';
+  src: url('../fonts/MyriadPro-LightSemiCn.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Futurah';
+  src: url('../fonts/Futurah.ttf') format('truetype');
+}
+
+/* ==========================================================================
    Chrome Frame prompt
    ========================================================================== */
 
@@ -56,6 +71,7 @@ Enjoy responsibly!
   width: 45%;
   color: #fff;
   font-size: 3em;
+  font-family: 'Futurah', sans-serif;
 }
 
 #location-helper {
@@ -83,6 +99,8 @@ Enjoy responsibly!
 #after-slides h1 {
   font-size: 3.5em;
   color: #fff;
+  font-family: 'MyriadPro-LightSemiCn', sans-serif;
+  font-weight: 300;
 }
 
 /* ==========================================================================
