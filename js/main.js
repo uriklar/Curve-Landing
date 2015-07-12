@@ -6,8 +6,4 @@
             console.log(data.curTop);
         }
     });
-
-    //$('#slides .slide').css('height',$('#page-content').height());
-
-
 } )( jQuery );

@@ -42,14 +42,13 @@ Enjoy responsibly!
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-#page-content {
-  min-width: 100%;
-  min-height: 100%;
+
+body {
   background-color: black;
 }
 
 #logo {
-  height: 95px;
+  height: 6vh;
   position: fixed;
   top: 0.3%;
   left: 0.3%;
@@ -62,46 +61,46 @@ Enjoy responsibly!
   height: 100%;
 }
 
+#slide-3 {
+  transform: translateZ(0);
+}
+
 
 .slide-image-ct {
   width: 55%;
 }
 
 .slide-image-ct img {
-  width: 50%;
+  width: 60%;
 }
 
 .slide-text-ct {
   width: 45%;
   color: #fff;
-  font-size: 3vw;
-  font-family: 'Futurah', sans-serif;
+  font-size: 4vw;
+  /*font-family: 'Futurah', sans-serif;*/
 }
 
 #location-helper {
-    position:absolute;
-    left:0;
-    top: 0;
-    height: 280%;
-    width: 0;
-}
-
-.marker {
-    height: 25%;
-    width: 100%;
+  position: absolute;
+  top: 0;
+  height: 210%;
+  width: 0;
 }
 
 #after-slides {
   position: absolute;
-  margin-top: 260%;
-  top: 0;
-  left: 0;
-  width: 100%;
   text-align: center;
+  width: 100%;
+  top: 280%;
+}
+
+#after-slides img {
+  height: 6vh;
 }
 
 #after-slides h1 {
-  font-size: 3.5em;
+  font-size: 4vw;
   color: #fff;
   font-family: 'MyriadPro-LightSemiCn', sans-serif;
   font-weight: 300;

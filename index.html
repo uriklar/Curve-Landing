@@ -22,91 +22,79 @@
 </head>
 <body>
 
-    <!--[if lt IE 7]>
-        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-    <![endif]-->
+<!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->		
 
-		
-	<div id="page-content">
-        
-        
+<!-- Statics -->
+<div id="slide-static" 
+    class="slide flex"
+    data-bottom-top="transform: translateY(0%)"
+    data-top-bottom="transform: translateY(-100%)"
+    data-anchor-target="#after-slides">
 
-        <!-- <div id="slides"> -->
-            <!-- Statics -->
-            <div id="slide-static" 
-                class="slide flex"
-                data-210="transform: translate(0%,0%)"
-                data-280p="transform: translate(0%,-100%)"
-                data-anchor-target="#location-helper">
+    <img id="logo" src="img/curve-logo-future.png">
+    <div class="slide-image-ct flex center"></div>
+    <div class="slide-text-ct flex vertical-center">
+        This is not a
+    </div>
+</div>
 
-                <img id="logo" src="img/curve-logo-future.png">
-                <div class="slide-image-ct flex center"></div>
-                <div class="slide-text-ct flex vertical-center">
-                    This is not a
-                </div>
-            </div>
+<div id="slide-1" 
+    class="slide flex"
+    data-40p="opacity: 1;" 
+    data-70p="opacity: 0;"
+    data-anchor-target="#location-helper">
+    
+    <div class="slide-image-ct flex center">
+        <img src="img/iphone.png">
+    </div>
+    <div class="slide-text-ct flex vertical-center">
+        This is not a<span>&nbsp;phone</span>
+    </div>
+</div>
 
-            <div id="slide-1" 
-                class="slide flex"
-                data-40p="opacity: 1;" 
-                data-70p="opacity: 0;"
-                data-anchor-target="#location-helper">
-                
-                <div class="slide-image-ct flex center">
-                    <img src="img/iphone.png">
-                </div>
-                <div class="slide-text-ct flex vertical-center">
-                    This is not a<span>&nbsp;phone</span>
-                </div>
-            </div>
+<div id="slide-2" 
+    class="slide flex"
+    data-40p="opacity: 0;" 
+    data-70p="opacity: 1;"
+    data-110p="opacity: 1;" 
+    data-140p="opacity: 0;"
+    data-anchor-target="#location-helper">
+    
+    <div class="slide-image-ct flex center">
+        <img src="img/carriage.png">
+    </div>
+    <div class="slide-text-ct flex vertical-center">
+        This is not a<span>&nbsp;carriage</span>
+    </div>
+</div>
 
-            <div id="slide-2" 
-                class="slide flex"
-                data-40p="opacity: 0;" 
-                data-70p="opacity: 1;"
-                data-110p="opacity: 1;" 
-                data-140p="opacity: 0;"
-                data-anchor-target="#location-helper">
-                
-                <div class="slide-image-ct flex center">
-                    <img src="img/carriage.png">
-                </div>
-                <div class="slide-text-ct flex vertical-center">
-                    This is not a<span>&nbsp;carriage</span>
-                </div>
-            </div>
-
-            <div id="slide-3" 
-                class="slide flex"
-                data-110p="opacity: 0;" 
-                data-140p="opacity: 1;"
-                data-210="transform: translate(0%,0%)"
-                data-280p="transform: translate(0%,-100%)"
-                data-anchor-target="#location-helper">
-                
-                <div class="slide-image-ct flex center">
-                    <img src="img/card.png">
-                </div>
-                <div class="slide-text-ct flex vertical-center">
-                    This is not a<span>&nbsp;card</span>
-                </div>
-            </div>
+<div id="slide-3" 
+    class="slide flex"
+    data-bottom-top="transform: translateY(0%)"
+    data-top-bottom="transform: translateY(-100%)"
+    data-anchor-target="#after-slides">
+    
+    <div class="slide-image-ct flex center">
+        <img src="img/card.png" data-110p="opacity: 0;" 
+    data-140p="opacity: 1;">
+    </div>
+    <div class="slide-text-ct flex vertical-center">
+        This is not a<span data-110p="opacity: 0;" 
+    data-140p="opacity: 1;">&nbsp;card</span>
+    </div>
+</div>
 
 
-        <div id="location-helper">
-            <div class="marker"></div>
-            <div class="marker"></div>
-            <div class="marker"></div>
-            <div class="marker"></div>
-        </div>
+<div id="location-helper">&nbsp;</div>
 
-        <div id="after-slides">
-            <img src="img/curve-logo-future.png">
-            <h1>Enlighten you wallet</h1>
-        </div>
-	</div>
-  
-	<script src="js/vendor/skrollr.min.js"></script>
-	<script src="js/main.js"></script>
+<div id="after-slides">
+    <img src="img/curve-logo-future.png">
+    <h1>Enlighten you wallet</h1>
+</div>
+
+<script src="js/vendor/skrollr.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
