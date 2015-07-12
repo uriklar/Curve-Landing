@@ -1,0 +1,73 @@
+$slide-height: 30;
+$fade-duration: 10;
+
+#slide-1 {
+  -skrollr-animation-name: slide1;
+}
+
+@-skrollr-keyframes slide1 {
+  skrollr-#{$slide-height - $fade-duration}p {
+    opacity: 1;
+  }
+
+  skrollr-#{$slide-height}p {
+    opacity: 0;
+  }
+}
+
+#slide-2 {
+  -skrollr-animation-name: slide2;
+}
+
+@-skrollr-keyframes slide2 {
+  skrollr-#{$slide-height - $fade-duration}p {
+    opacity: 0;
+  }
+
+  skrollr-#{$slide-height}p {
+    opacity: 1;
+  }
+
+  skrollr-#{$slide-height*2 - $fade-duration}p {
+    opacity: 1;
+  }
+
+  skrollr-#{$slide-height*2}p {
+    opacity: 0;
+  }
+}
+
+#slide-3 {
+  img, span {
+    -skrollr-animation-name: slide3-inner;
+  }
+}
+
+@-skrollr-keyframes slide3-inner {
+  skrollr-#{$slide-height*2 - $fade-duration}p {
+    opacity: 0;
+  }
+
+  skrollr-#{$slide-height*2}p {
+    opacity: 1;
+  }
+}
+
+#slide-3, #slide-static {
+  -skrollr-animation-name: slide3;
+  -skrollr-anchor-target: '#after-slides';
+}
+
+@-skrollr-keyframes slide3 {
+  bottom-top {
+    transform: translateY(0%)
+  }
+
+  top-bottom {
+    transform: translateY(-100%)
+  }
+}
+
+#after-slides {
+  top: $slide-height*6%;
+}

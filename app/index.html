@@ -16,6 +16,9 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/keyframes.css"  media="only screen and (min-width: 1050px)" data-skrollr-stylesheet>
+    <link rel="stylesheet" href="css/keyframes-mobile.css"  media="only screen and (max-width: 1050px)" data-skrollr-stylesheet>
+
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     <script src="js/vendor/jquery-1.9.1.min.js"></script>
 
@@ -27,12 +30,7 @@
 <![endif]-->		
 
 <!-- Statics -->
-<div id="slide-static" 
-    class="slide flex"
-    data-bottom-top="transform: translateY(0%)"
-    data-top-bottom="transform: translateY(-100%)"
-    data-anchor-target="#after-slides">
-
+<div id="slide-static" class="slide flex">
     <img id="logo" src="img/curve-logo-future.png">
     <div class="slide-image-ct flex center"></div>
     <div class="slide-text-ct flex vertical-center">
@@ -40,12 +38,7 @@
     </div>
 </div>
 
-<div id="slide-1" 
-    class="slide flex"
-    data-40p="opacity: 1;" 
-    data-70p="opacity: 0;"
-    data-anchor-target="#location-helper">
-    
+<div id="slide-1" class="slide flex">
     <div class="slide-image-ct flex center">
         <img src="img/iphone.png">
     </div>
@@ -54,14 +47,7 @@
     </div>
 </div>
 
-<div id="slide-2" 
-    class="slide flex"
-    data-40p="opacity: 0;" 
-    data-70p="opacity: 1;"
-    data-110p="opacity: 1;" 
-    data-140p="opacity: 0;"
-    data-anchor-target="#location-helper">
-    
+<div id="slide-2" class="slide flex">
     <div class="slide-image-ct flex center">
         <img src="img/carriage.png">
     </div>
@@ -70,30 +56,21 @@
     </div>
 </div>
 
-<div id="slide-3" 
-    class="slide flex"
-    data-bottom-top="transform: translateY(0%)"
-    data-top-bottom="transform: translateY(-100%)"
-    data-anchor-target="#after-slides">
-    
+<div id="slide-3" class="slide flex">
     <div class="slide-image-ct flex center">
-        <img src="img/card.png" data-110p="opacity: 0;" 
-    data-140p="opacity: 1;">
+        <img src="img/card.png">
     </div>
     <div class="slide-text-ct flex vertical-center">
-        This is not a<span data-110p="opacity: 0;" 
-    data-140p="opacity: 1;">&nbsp;card</span>
+        This is not a<span>&nbsp;card</span>
     </div>
 </div>
-
-
-<div id="location-helper">&nbsp;</div>
 
 <div id="after-slides">
     <img src="img/curve-logo-future.png">
     <h1>Enlighten you wallet</h1>
 </div>
 
+<script src="js/vendor/skrollr-stylesheets.min.js"></script>
 <script src="js/vendor/skrollr.min.js"></script>
 <script src="js/main.js"></script>
 </body>
