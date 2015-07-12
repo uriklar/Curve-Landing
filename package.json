@@ -1,0 +1,9 @@
+{
+  "name": "Curve Landing Page",
+  "version": "0.0.1",
+  "dependencies": {
+    "gulp": "latest",
+    "gulp-sass": "latest",
+    "gulp-server-livereload": "latest"
+  }
+}
