@@ -51,8 +51,8 @@ Enjoy responsibly!
 #logo {
   height: 95px;
   position: fixed;
-  top: 40px;
-  left: 60px;
+  top: 0.3%;
+  left: 0.3%;
 }
 
 .slide {
@@ -67,10 +67,14 @@ Enjoy responsibly!
   width: 55%;
 }
 
+.slide-image-ct img {
+  width: 50%;
+}
+
 .slide-text-ct {
   width: 45%;
   color: #fff;
-  font-size: 3em;
+  font-size: 3vw;
   font-family: 'Futurah', sans-serif;
 }
 
@@ -78,7 +82,7 @@ Enjoy responsibly!
     position:absolute;
     left:0;
     top: 0;
-    height:400%;
+    height: 280%;
     width: 0;
 }
 
